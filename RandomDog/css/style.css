@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+* {
+	margin: 0;  
+	padding: 0;
+}
+
+body {
+	width: 100vw;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #fafafad9;
+}
+
+header {
+	width: 100%;
+	height: 10rem;
+	background-image: url('../img/banner.jpg');
+	background-size: contain;	
+	margin: 1rem;
+}
+
+button {
+	width: 6rem;
+	height: 2rem;
+	box-shadow: 0 0 10px #686868;
+	border-radius: 10px;
+	border: none;
+	cursor: pointer;	
+	margin-top: 2rem;
+}
+
+button:hover {
+	border-radius: 10px;
+	border: solid 3px groove #f3eb00;
+	background-color: rgb(217, 217, 217);
+	color: #000;
+}
+
+h1 {
+	font-size: 5rem;
+	color: #bf2b05;
+	font-family: 'Lobster', cursive;
+	text-align: center;
+	margin-top: 2rem;
+}
+
+
+main {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+
+.randomTitle {
+	font-size: 2rem;
+	font-weight: 800;
+	color: #bf2b05;
+	margin: 1rem;
+}
+
+.card {
+	width: 155px;
+	height: 155px;	
+	border-radius: 15px;
+	box-shadow: 0 0 10px #686868;
+	margin: 1rem;
+}
+
+.img-card {
+	width: 100%;
+	height: 100%;
+	border-radius: 15px;
+}
+
+.card > p {
+	font-size: 1.5rem;
+	color: #000000;
+	font-weight: 800;
+	text-align: center;	
+	height: 30%;
+}
